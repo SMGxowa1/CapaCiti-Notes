@@ -105,5 +105,9 @@
 - allows us to create a for loop in one line while returning a copy of the list you're iterating over.
 - also endables filtering or applying functions to every item
 
+## Dictionaries and Comprehensions 
+- in python dictionary comprehensions to create new dicitonary from an iterable structure, similar to list comprehensions
+- to turn dictionary back into list, use 'items' method returning 'dict_items' object with key-value pairs
+-  use a list comprehension with the syntax "name_value = [{'name': key, 'value': value} for key, value in animals.items()]" to create a list of dictionary objects with the original keys and values under the "name" and "value" fields
 
 
