@@ -89,7 +89,21 @@
 - set removes duplicates from a list, since sets only contain unique values. 
 - can check if element is in a set using membership operator (in) and find lenght of set using length() function.
 - tuples: declared with parentheses instead of square
+- tuples are immutable, can retrieve elements from tuple using indexing
+- tuples take up less memory
+- common use case is when you want to return multiple values from a function
 
+## Dictionaries 
+- to access a specific key-value pair in the dictionary, simply type name of dictionary followed by key in square brackets
+- to add new key-value pair, use a similar syntax with assigment operator
+- you can also access keys and values of a dictionary using .keys() and .values() methods.
+- len() function to get length of dictionary
+
+## List Comprehensions
+- refers to comprehensive listing of things
+- using a list comprehension you can multiple each item in the list by two e.g. two times item in my list
+- allows us to create a for loop in one line while returning a copy of the list you're iterating over.
+- also endables filtering or applying functions to every item
 
 
 
